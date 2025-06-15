@@ -6,65 +6,77 @@
   <title>Sreekanth Potlabathini | Data Scientist</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
   <style>
+    /* === Global Styles === */
+    :root {
+      --bg-dark: #292a35;
+      --bg-card: #36374a;
+      --bg-card-alt: #404154;
+      --text-main: #eaeaea;
+      --text-heading: #ffffff;
+      --link: #4da3ff;
+      --border: #444;
+    }
+    * { box-sizing: border-box; }
     body {
-      font-family: 'Inter', sans-serif;
       margin: 0;
       padding: 2rem;
-      background: #f4f6f8;
-      color: #333;
+      font-family: 'Inter', sans-serif;
+      background: var(--bg-dark);
+      color: var(--text-main);
+      line-height: 1.6;
     }
+    h1, h2, h3 { color: var(--text-heading); margin: 0 0 .5rem 0; }
+    a { color: var(--link); text-decoration: none; }
+    ul { padding-left: 1.2rem; margin: .5rem 0; }
+
+    /* === Layout === */
     header {
       text-align: center;
       padding-bottom: 1rem;
-      border-bottom: 2px solid #ccc;
+      border-bottom: 2px solid var(--border);
     }
-    h1, h2 {
-      margin-bottom: 0.5rem;
+    header img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 1rem;
     }
+    .contact { font-size: .95rem; margin-top: .5rem; }
+    .contact a { margin-right: .8rem; }
+
     section {
       margin-top: 2rem;
-      background: #fff;
+      background: var(--bg-card);
       padding: 1.5rem;
       border-radius: 12px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      box-shadow: 0 2px 8px rgba(0,0,0,.1);
     }
-    ul {
-      padding-left: 1.2rem;
-    }
-    a {
-      color: #0066cc;
-      text-decoration: none;
-    }
-    .contact {
-      margin-top: 0.5rem;
-      font-size: 0.95rem;
-    }
-    .contact a {
-      margin-right: 0.8rem;
-    }
+
+    /* === Project Card === */
     .project-card {
-      border: 1px solid #ddd;
+      background: var(--bg-card-alt);
+      border: 1px solid var(--border);
       border-radius: 10px;
       padding: 1rem;
       margin-bottom: 1rem;
-      background: #fdfdfd;
     }
-    .project-card h3 {
-      margin-top: 0;
-    }
-    iframe {
-      border: none;
-      width: 100%;
-      height: 500px;
-      margin-top: 1rem;
+    .project-card h3 { margin-top: 0; }
+    iframe { width: 100%; height: 550px; border: none; margin-top: 1rem; }
+
+    @media (max-width: 600px) {
+      body { padding: 1rem; }
+      iframe { height: 400px; }
     }
   </style>
 </head>
 <body>
+  <!-- ===== Header ===== -->
   <header>
+    <img src="profile.png" alt="Sreekanth Potlabathini" />
     <h1>Sreekanth Potlabathini</h1>
     <div class="contact">
-      <p>2020 Bathurst St, Toronto, ON M5P 0A6 | +1 (807) 842-5507</p>
+      <p>2020 Bathurst St, Toronto, ON M5P 0A6 | +1&nbsp;(807)&nbsp;842‑5507</p>
       <p>
         <a href="mailto:srikanth.potlabathini@gmail.com">Email</a>
         <a href="https://linkedin.com/in/potlabathini" target="_blank">LinkedIn</a>
@@ -74,64 +86,73 @@
     </div>
   </header>
 
+  <!-- ===== Technical Skills ===== -->
   <section>
     <h2>Technical Skills</h2>
-    <p><strong>AI & ML:</strong> NLP, CV, Anomaly Detection, Segmentation, SHAP, DL, Tree Models, Neural Nets (PyTorch), RLHF</p>
-    <p><strong>MLOps & Cloud:</strong> MLflow, Docker, Kubernetes, GitHub Actions, AWS, GCP, CI/CD</p>
-    <p><strong>Data Engineering:</strong> ETL/ELT, Spark, SQL, Tableau, Power BI, Grafana</p>
-    <p><strong>DevOps & Tools:</strong> AWS DevOps, Jira, HubSpot API</p>
-    <p><strong>Libraries & Frameworks:</strong> LangChain, LlamaIndex, TRL, Flask, OpenCV</p>
+    <p><strong>AI &amp; ML:</strong> NLP, CV, Anomaly Detection, Segmentation, SHAP, DL, Tree Models, Neural Nets (PyTorch), RLHF</p>
+    <p><strong>MLOps &amp; Cloud:</strong> MLflow, Docker, Kubernetes, GitHub Actions, AWS, GCP, CI/CD</p>
+    <p><strong>Data Engineering:</strong> ETL/ELT, Spark, SQL, Tableau, Power&nbsp;BI, Grafana</p>
+    <p><strong>DevOps &amp; Tools:</strong> AWS DevOps, Jira, HubSpot API</p>
+    <p><strong>Libraries &amp; Frameworks:</strong> LangChain, LlamaIndex, TRL, Flask, OpenCV</p>
     <p><strong>Management:</strong> Project Lifecycle, Stakeholder Management, Agile, Reporting</p>
   </section>
 
+  <!-- ===== Education ===== -->
   <section>
     <h2>Education</h2>
     <ul>
-      <li><strong>Schulich School of Business, York University</strong> – MBAN (2023–2024)</li>
-      <li><strong>Seneca College</strong> – Financial Planning (2022–2023)</li>
-      <li><strong>JNTU, Hyderabad</strong> – BTech in Mechanical Engineering (2006–2010)</li>
+      <li><strong>Schulich School of Business, York University</strong> – MBAN (2023 – 2024)</li>
+      <li><strong>Seneca College</strong> – Financial Planning (2022 – 2023)</li>
+      <li><strong>JNTU, Hyderabad</strong> – BTech Mechanical Engineering (2006 – 2010)</li>
     </ul>
   </section>
 
+  <!-- ===== Experience ===== -->
   <section>
     <h2>Experience</h2>
     <ul>
-      <li><strong>Soralink – Lead Data Scientist</strong> (2024–Present)</li>
-      <li><strong>Dotslive – Tech Consultant</strong> (2023–2024)</li>
+      <li><strong>Soralink – Lead Data Scientist</strong> (2024 – Present)</li>
+      <li><strong>Dotslive – Tech Consultant</strong> (2023 – 2024)</li>
       <li><strong>Startupclub – MLOps Engineer</strong> (2024)</li>
-      <li><strong>Hyundai Motor India Engineering</strong> – Various Roles (2010–2022)</li>
+      <li><strong>Hyundai Motor India Engineering</strong> – Senior Engineer to Deputy Manager (2010 – 2022)</li>
     </ul>
   </section>
 
+  <!-- ===== Projects ===== -->
   <section>
     <h2>Projects</h2>
+
     <div class="project-card">
       <h3>Job Recommendation System</h3>
-      <p>Used NLP, LLMs, customer clustering, hosted on Hugging Face with low-latency LLaMA2 inference.</p>
-      <a href="https://huggingface.co/sriku2412/unsloth_SFT_dotsLive" target="_blank">Model on Hugging Face</a>
+      <p>End‑to‑end system using NLP &amp; LLMs to match resumes with job descriptions; fine‑tuned model served on Hugging&nbsp;Face with &lt; 15 s latency.</p>
+      <a href="https://huggingface.co/sriku2412/unsloth_SFT_dotsLive" target="_blank">View Model</a>
     </div>
+
     <div class="project-card">
-      <h3>StartupClub Chatbot (RAG)</h3>
-      <p>RAG-based AI chatbot using LlamaIndex & React with Docker deployment on AWS.</p>
+      <h3>StartupClub Chatbot&nbsp;(RAG)</h3>
+      <p>Retrieval‑Augmented Generation chatbot built with LlamaIndex &amp; React; Dockerised backend on AWS and voice interaction frontend.</p>
       <a href="https://www.startup.club/ask-ai" target="_blank">Live Demo</a>
     </div>
+
     <div class="project-card">
-      <h3>Battery Life Prediction Dashboard</h3>
-      <p>Created dynamic Grafana dashboard for battery monitoring and maintenance scheduling.</p>
-      <iframe src="https://datastudio.google.com/embed/reporting/your_dashboard_id/page/your_page_id" allowfullscreen></iframe>
+      <h3>Connect4 AI Game</h3>
+      <p>Interactive Connect4 game powered by DQN &amp; Minimax agents. Play against the AI right here!</p>
+      <iframe src="https://sriku2412.github.io/Connect4/" title="Connect4 Game" allowfullscreen></iframe>
     </div>
   </section>
 
+  <!-- ===== Patents ===== -->
   <section>
     <h2>Patents</h2>
     <ul>
-      <li>US20170175911A1, US10500949B2, DE102017222785A1, US10632838B2</li>
+      <li>US20170175911A1 · US10500949B2 · DE102017222785A1 · US10632838B2</li>
     </ul>
   </section>
 
+  <!-- ===== Featured Talk ===== -->
   <section>
     <h2>Featured Talk</h2>
-    <p>Panelist at Microsoft React – <a href="https://developer.microsoft.com/en-us/reactor/events/24166/" target="_blank">View Event</a></p>
+    <p>Panelist at Microsoft&nbsp;React – <a href="https://developer.microsoft.com/en-us/reactor/events/24166/" target="_blank">Watch&nbsp;Event</a></p>
   </section>
 </body>
 </html>
