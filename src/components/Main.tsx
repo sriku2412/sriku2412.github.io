@@ -8,7 +8,7 @@ function Main() {
     <div className="container">
       <div className="about-section">
         <div className="image-wrapper">
-          <img src="public/profile.jpeg" alt="Sreekanth Potlabathini" />
+          <img src="/profile.jpeg" alt="Sreekanth Potlabathini" />
         </div>
         <div className="content">
           <div className="social_icons">
