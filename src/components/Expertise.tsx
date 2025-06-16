@@ -68,9 +68,12 @@ function Expertise() {
 
                     <div className="skill">
                         <FontAwesomeIcon icon={faPython} size="3x" />
-                        <h3>Mechanical Engineer – R&D & Project Management</h3>
+                        <h3>Sr. Mechanical Research Engineer – R&D </h3>
                         <p>
                             10+ years leading automotive R&D with a focus on fuel and urea systems. Delivered patented innovations, root cause analysis, and large-scale mechanical systems with strong cost and quality impact. Managed cross-functional projects across lifecycle stages.
+                        </p>
+                        <p>
+                            Innovator with 4 patents, dedicated to driving innovation and process optimization in automotive industries.
                         </p>
                         <div className="flex-chips">
                             <span className="chip-title">Tools & Methods:</span>
