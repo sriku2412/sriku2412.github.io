@@ -4,24 +4,49 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import '../assets/styles/Main.scss';
 
 function Main() {
-
   return (
     <div className="container">
       <div className="about-section">
         <div className="image-wrapper">
-          <img src="https://my-aws-assets.s3.us-west-2.amazonaws.com/portfolio-img/avatar_circle.jpeg" alt="Avatar" />
+          <img src="public/profile.jpeg" alt="Sreekanth Potlabathini" />
         </div>
         <div className="content">
           <div className="social_icons">
-            <a href="https://github.com/yujisatojr" target="_blank" rel="noreferrer"><GitHubIcon/></a>
-            <a href="https://www.linkedin.com/in/yujisato/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
+            <a
+              href="https://github.com/sriku2412"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <GitHubIcon />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/potlabathini/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <LinkedInIcon />
+            </a>
           </div>
-          <h1>Yuji Sato</h1>
-          <p>Full Stack Engineer</p>
 
+          <h1>Sreekanth&nbsp;Potlabathini</h1>
+          <p>Data&nbsp;Scientist&nbsp;&nbsp;|&nbsp;&nbsp;MLOps&nbsp;Engineer|&nbsp;&nbsp;Sr.&nbsp;Mechanical&nbsp;Research&nbsp;Engineer</p>
+
+          {/* duplicated icons for mobile view */}
           <div className="mobile_social_icons">
-            <a href="https://github.com/yujisatojr" target="_blank" rel="noreferrer"><GitHubIcon/></a>
-            <a href="https://www.linkedin.com/in/yujisato/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
+            <a
+              href="https://github.com/sriku2412"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <GitHubIcon />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/potlabathini"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <LinkedInIcon />
+            </a>
           </div>
         </div>
       </div>
