@@ -21,10 +21,10 @@ function Project() {
             <img src={mock10} className="zoom" alt="Filmate AI" width="100%" />
           </a>
           <a href="https://www.filmate.club/" target="_blank" rel="noreferrer">
-            <h2>Filmate AI</h2>
+            <h2>Computer vision - Motion Detection</h2>
           </a>
           <p>
-            Developed movie finder app with semantic search and sentiment analysis using OpenAI GPT-3.5 Turbo, Qdrant, React, and Flask.
+            Developed a motion detection system with Python and OpenCV.
           </p>
         </div>
 
@@ -33,10 +33,10 @@ function Project() {
             <img src={mock09} className="zoom" alt="High Speed Chase" width="100%" />
           </a>
           <a href="https://sriku2412.itch.io/highspeedchase" target="_blank" rel="noreferrer">
-            <h2>High Speed Chase</h2>
+            <h2>Connect4 - DQN</h2>
           </a>
           <p>
-            Designed, developed, and launched a 3D multiplayer racing game with C# and Unity.
+            Designed, developed, and launched a Connect4 game with a combination of Minimax and Deep Q-Network.
           </p>
         </div>
 
@@ -45,10 +45,10 @@ function Project() {
             <img src={mock08} className="zoom" alt="Astro Raiders" width="100%" />
           </a>
           <a href="https://sriku2412.itch.io/spacecraft" target="_blank" rel="noreferrer">
-            <h2>Astro Raiders</h2>
+            <h2>Time series clustering</h2>
           </a>
           <p>
-            Developed and released a 2D shooting game with C# and Unity, hosted on Itch.io.
+            This project clusters regions based on their annual climate patterns—temperature, humidity, and wind speed—to identify areas with similar conditions for crop suitability and transferability.
           </p>
         </div>
 
