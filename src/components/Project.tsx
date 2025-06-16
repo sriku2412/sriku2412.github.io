@@ -77,14 +77,14 @@ function Project() {
         </div>
 
         <div className="project">
-          <a href="https://www.byuh.edu/covid-19-case-management" target="_blank" rel="noreferrer">
+          <a href="https://github.com/sriku2412/dataraction_project/tree/main/CareerAdvisor" target="_blank" rel="noreferrer">
             <img src={mock05} className="zoom" alt="COVID Case Tracker" width="100%" />
           </a>
-          <a href="https://www.byuh.edu/covid-19-case-management" target="_blank" rel="noreferrer">
-            <h2>COVID-19 Case Management</h2>
+          <a href="https://github.com/sriku2412/dataraction_project/tree/main/CareerAdvisor" target="_blank" rel="noreferrer">
+            <h2>Career Advisor</h2>
           </a>
           <p>
-            Built COVID/vaccine tracking charts using JavaScript and Google Sheets API for university leaders.
+            Developed a career advisor LLM chatbot tool that helps students identify suitable jobs based on their strengths and recommends relevant courses to meet the requirements of their dream roles.
           </p>
         </div>
 
