@@ -35,18 +35,22 @@ function Main() {
               rel="noreferrer"
             >
               <EmailOutlinedIcon />
+            </a>
             <a
               href="https://calendar.app.google/QSuqQv8Z7QAj1hvg9"
               target="_blank"
               rel="noreferrer"
             >
               <CalendarMonthIcon />
+            </a>
             <a
               href="https://github.com/sriku2412/sriku2412/raw/main/Sreekanth-Resume-Jun-2025.pdf"
               target="_blank"
               rel="noreferrer"
             >
               <FileDownloadIcon />
+            </a>
+
           </div>
 
           <h1>Sreekanth&nbsp;Potlabathini</h1>
