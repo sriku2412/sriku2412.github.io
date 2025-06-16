@@ -17,7 +17,7 @@ function Project() {
       <h1>Personal Projects</h1>
       <div className="projects-grid">
         <div className="project">
-          <a href="https://github.com/sriku2412" target="_blank" rel="noreferrer">
+          <a href="https://github.com/sriku2412/Personal-projects/tree/main/MotionDetector" target="_blank" rel="noreferrer">
             <img src={mock10} className="zoom" alt="Filmate AI" width="100%" />
           </a>
           <a href="https://github.com/sriku2412/Personal-projects/tree/main/MotionDetector" target="_blank" rel="noreferrer">
@@ -33,7 +33,7 @@ function Project() {
             <img src={mock09} className="zoom" alt="High Speed Chase" width="100%" />
           </a>
           <a href="https://github.com/sriku2412/Conect4" target="_blank" rel="noreferrer">
-            <h2>Connect4 - DQN</h2>
+            <h2>Connect4 - Deep Q-Network</h2>
           </a>
           <p>
             Designed, developed, and launched a Connect4 game with a combination of Minimax and Deep Q-Network.
@@ -53,10 +53,10 @@ function Project() {
         </div>
 
         <div className="project">
-          <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer">
+          <a href="https://startup.club/ask-ai/" target="_blank" rel="noreferrer">
             <img src={mock07} className="zoom" alt="Datum" width="100%" />
           </a>
-          <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer">
+          <a href="https://startup.club/ask-ai/" target="_blank" rel="noreferrer">
             <h2>AI chatbot : Integrated with RAG & LLM</h2>
           </a>
           <p>
@@ -65,14 +65,14 @@ function Project() {
         </div>
 
         <div className="project">
-          <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer">
+          <a href="https://www.linkedin.com/feed/update/urn:li:activity:7150172540991148034/" target="_blank" rel="noreferrer">
             <img src={mock06} className="zoom" alt="WeManage" width="100%" />
           </a>
-          <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer">
-            <h2>WeManage: Real Estate Asset Management</h2>
+          <a href="https://www.linkedin.com/feed/update/urn:li:activity:7150172540991148034/" target="_blank" rel="noreferrer">
+            <h2>AI Earth Hackathon - Ai chatbot </h2>
           </a>
           <p>
-            Mobile app for realtors in Japan to manage property and forecast income. Built with Rails & JS.
+            A multi-agent GenAI chatbot that evaluates circular economy startup ideas, collaborates through RAG using Streamlit, and suggests creative improvements via moderator and innovation-focused agents.
           </p>
         </div>
 
@@ -89,26 +89,26 @@ function Project() {
         </div>
 
         <div className="project">
-          <a href="https://github.com/sriku2412/multi-reg-analysis" target="_blank" rel="noreferrer">
+          <a href="https://patentimages.storage.googleapis.com/40/21/e0/c94a17aa1be132/US9903492.pdf" target="_blank" rel="noreferrer">
             <img src={mock04} className="zoom" alt="Regression Analysis" width="100%" />
           </a>
-          <a href="https://github.com/sriku2412/multi-reg-analysis" target="_blank" rel="noreferrer">
-            <h2>Multiple Regression Property Analysis</h2>
+          <a href="https://patentimages.storage.googleapis.com/40/21/e0/c94a17aa1be132/US9903492.pdf" target="_blank" rel="noreferrer">
+            <h2>Roll over valve for fuel tank</h2>
           </a>
           <p>
-            Predicted real estate prices in Japan using OLS and regression in Python (Pandas, Sklearn).
+            A single-chamber roll‑over valve that uses multiple strategically angled inflow tubes—sensitive to fuel surface elevation—to dynamically adjust the shut‑off point (“clog point”), matching dual‑valve performance while increasing tank fill capacity and vapor venting efficiency.
           </p>
         </div>
 
         <div className="project">
-          <a href="https://holokai.byuh.edu/programs-of-study" target="_blank" rel="noreferrer">
+          <a href="https://patentimages.storage.googleapis.com/2b/9b/70/b88b22c58fdae8/US10632838.pdf" target="_blank" rel="noreferrer">
             <img src={mock03} className="zoom" alt="Programs of Study" width="100%" />
           </a>
-          <a href="https://holokai.byuh.edu/programs-of-study" target="_blank" rel="noreferrer">
-            <h2>Programs of Study</h2>
+          <a href="https://patentimages.storage.googleapis.com/2b/9b/70/b88b22c58fdae8/US10632838.pdf" target="_blank" rel="noreferrer">
+            <h2>Leveling nipple for spit-back prevension</h2>
           </a>
           <p>
-            Built a CMS-integrated module using Java, Handlebars, and LESS to help students explore majors.
+            A spill- and spit-back–preventing leveling nipple for vehicle fluid tanks, featuring dual air-vent pipes that manage internal pressure during filling to avoid fluid backflow and filler-gun cutoff.
           </p>
         </div>
 
