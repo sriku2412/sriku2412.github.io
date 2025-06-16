@@ -60,7 +60,7 @@ function Project() {
             <h2>AI chatbot : Integrated with RAG & LLM</h2>
           </a>
           <p>
-            Built a Gen AI Chatbot that uses LlamaIndex and Node.js. It also has a sentiment analysis done to recomment Youtube & blog plost.
+            Built a GenAI Chatbot that uses LlamaIndex and Node.js. It also has a sentiment analysis done to recommend Youtube & blog plots.
           </p>
         </div>
 
@@ -105,7 +105,7 @@ function Project() {
             <img src={mock03} className="zoom" alt="Programs of Study" width="100%" />
           </a>
           <a href="https://patentimages.storage.googleapis.com/2b/9b/70/b88b22c58fdae8/US10632838.pdf" target="_blank" rel="noreferrer">
-            <h2>Leveling nipple for spit-back prevension</h2>
+            <h2>Leveling nipple for spit-back prevention</h2>
           </a>
           <p>
             A spill- and spit-back–preventing leveling nipple for vehicle fluid tanks, featuring dual air-vent pipes that manage internal pressure during filling to avoid fluid backflow and filler-gun cutoff.

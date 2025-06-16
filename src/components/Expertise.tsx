@@ -12,11 +12,11 @@ const labelsFirst = [
 
 const labelsSecond = [
     "Docker", "Kubernetes", "GitHub Actions", "CI/CD", "AWS", "GCP", "MLflow", "Cloud Run",
-    "Pub/Sub", "SQL", "Databricks", "Spark", "Git", "Jira",  "LangChain", "LlamaIndex", "Streamlit", "PostgreSQL", "Gen AI", "huggingface", "OpenAI", "Azure OpenAI",
+    "Pub/Sub", "SQL", "Databricks", "Spark", "Git", "Jira",  "LangChain", "LlamaIndex", "Streamlit", "PostgreSQL", "Gen AI", "Hugging Face", "OpenAI", "Azure OpenAI",
 ];
 
 const labelsThird = [
-    "CATIA V5", "ANSYS", "GD&T", "PLM", "Root Cause Analysis", "Design Thinking", "Lean Six Sigma", "problem solving",
+    "CATIA V5", "ANSYS", "GD&T", "PLM", "Root Cause Analysis", "Design Thinking", "Lean Six Sigma", "Problem Solving",
     "Project Management", "Cost Optimization", "Critical Thinking", "Innovation", "Stakeholder Management"
 ];
 
@@ -45,11 +45,11 @@ function Expertise() {
 
                     <div className="skill">
                         <FontAwesomeIcon icon={faDocker} size="3x" />
-                        <h3>MLOps Engineer & Consultant - inernships</h3>
+                        <h3>MLOps Engineer & Consultant - Internships</h3>
 <p>
     Developed a scalable, production-ready GenAI solution. Built a chatbot using LlamaIndex and Node.js, leveraging Docker, CI/CD, and cloud-native tools. 
     Integrated a CI/CD pipeline with GitHub Actions and cloud automation. 
-    <a href="https://startup.club/ask-ai/" target="_blank">View Demo</a>
+    <a href="https://startup.club/ask-ai/" target="_blank" rel="noreferrer"> \nView Demo</a>
 </p>
 
                         <p>
