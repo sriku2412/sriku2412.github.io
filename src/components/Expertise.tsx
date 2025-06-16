@@ -7,6 +7,11 @@ import '../assets/styles/Expertise.scss';
 
 const labelsFirst = [
     "React",
+    "Flask",
+    "LangChain",
+    "LlamaIndex",
+    "Streamlit",
+    "Node.js",
     "TypeScript",
     "JavaScript",
     "HTML5",
@@ -20,71 +25,93 @@ const labelsFirst = [
 ];
 
 const labelsSecond = [
-    "Git",
-    "GitHub Actions",
     "Docker",
+    "Kubernetes",
+    "GitHub Actions",
+    "CI/CD",
     "AWS",
-    "Azure",
-    "Linux",
-    "Snowflake",
-    "Pandas",
-    "Selenium",
+    "GCP",
+    "MLflow",
+    "Cloud Run",
+    "Pub/Sub",
+    "SQL",
+    "Databricks",
+    "Spark",
+    "git",
+    "Jira",
+    "pandas",
+    "numpy",
+    "matplotlib",
+    "seaborn"
 ];
 
 const labelsThird = [
     "OpenAI",
-    "Groq",
-    "LangChain",
-    "Qdrant",
     "Hugging Face",
+    "LLMs",
+    "RAG",
+    "SFT",
+    "PyTorch",
+    "TRL",
+    "Computer Vision",
+    "NLP",
+    "SHAP",
+    "Anomaly Detection",
     "LlamaIndex",
-    "Streamlit",
+    "Hugging Face",
+    "Streamlit"
 ];
 
 function Expertise() {
     return (
-    <div className="container" id="expertise">
-        <div className="skills-container">
-            <h1>Expertise</h1>
-            <div className="skills-grid">
-                <div className="skill">
-                    <FontAwesomeIcon icon={faReact} size="3x"/>
-                    <h3>Full Stack Web Development</h3>
-                    <p>I have built a diverse array of web applications from scratch using modern technologies such as React and Flask. I have a strong proficiency in the SDLC process and frontend + backend development.</p>
-                    <div className="flex-chips">
-                        <span className="chip-title">Tech stack:</span>
-                        {labelsFirst.map((label, index) => (
-                            <Chip key={index} className='chip' label={label} />
-                        ))}
+        <div className="container" id="expertise">
+            <div className="skills-container">
+                <h1>Expertise</h1>
+                <div className="skills-grid">
+                    <div className="skill">
+                        <FontAwesomeIcon icon={faReact} size="3x" />
+                        <h3>Tech Consultant – GenAI</h3>
+                        <p>
+                            Delivered AI-enabled solutions integrating LLMs, custom SFT models, and chatbots with LangChain, Streamlit, and Flask. Built job recommendation systems and ethical career coaching tools hosted on Hugging Face.
+                        </p>
+                        <div className="flex-chips">
+                            <span className="chip-title">Tech stack:</span>
+                            {labelsFirst.map((label, index) => (
+                                <Chip key={index} className='chip' label={label} />
+                            ))}
+                        </div>
                     </div>
-                </div>
 
-                <div className="skill">
-                    <FontAwesomeIcon icon={faDocker} size="3x"/>
-                    <h3>DevOps & Automation</h3>
-                    <p>Once the application is built, I help clients set up DevOps testing, CI/CD pipelines, and deployment automation to support the successful Go-Live.</p>
-                    <div className="flex-chips">
-                        <span className="chip-title">Tech stack:</span>
-                        {labelsSecond.map((label, index) => (
-                            <Chip key={index} className='chip' label={label} />
-                        ))}
+                    <div className="skill">
+                        <FontAwesomeIcon icon={faDocker} size="3x" />
+                        <h3>MLOps Engineer</h3>
+                        <p>
+                            Built full ML pipelines with automated CI/CD, MLflow, and cloud deployments across AWS and GCP. Implemented observability, experiment tracking, and data drift monitoring for scalable AI workflows.
+                        </p>
+                        <div className="flex-chips">
+                            <span className="chip-title">Tech stack:</span>
+                            {labelsSecond.map((label, index) => (
+                                <Chip key={index} className='chip' label={label} />
+                            ))}
+                        </div>
                     </div>
-                </div>
 
-                <div className="skill">
-                    <FontAwesomeIcon icon={faPython} size="3x"/>
-                    <h3>GenAI & LLM</h3>
-                    <p>Stay relevant in the market by leveraging the latest AI models in your projects. I have professional experience building enterprise grade GenAI-enabled solutions to empower intelligent decision making.</p>
-                    <div className="flex-chips">
-                        <span className="chip-title">Tech stack:</span>
-                        {labelsThird.map((label, index) => (
-                            <Chip key={index} className='chip' label={label} />
-                        ))}
+                    <div className="skill">
+                        <FontAwesomeIcon icon={faPython} size="3x" />
+                        <h3>Mechanical Engineer – R&D & Project Management</h3>
+                        <p>
+                            10+ years leading design & simulation projects at Hyundai. Expertise in CATIA, GD&T, and innovation-driven system design. Filed 4 patents. Applied root cause analysis, stakeholder engagement, and cost optimization to deliver high-impact automotive systems.
+                        </p>
+                        <div className="flex-chips">
+                            <span className="chip-title">Tools & Methods:</span>
+                            {labelsThird.map((label, index) => (
+                                <Chip key={index} className='chip' label={label} />
+                            ))}
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
     );
 }
 
