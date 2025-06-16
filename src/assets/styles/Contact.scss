@@ -46,3 +46,9 @@ form {
   width: 100% !important;
   margin-bottom: 15px !important;
 }
+
+.MuiInputBase-root input,
+.MuiInputBase-root textarea {
+  color: black !important;
+  background-color: white !important;
+}

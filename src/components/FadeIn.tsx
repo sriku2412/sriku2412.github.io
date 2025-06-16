@@ -59,14 +59,16 @@ import React, {
       <WrapperTag className={props.className}>
         {React.Children.map(props.children, (child, i) => {
           return (
-            <ChildTag
-              className={props.childClassName}
-              style={{
-                transition: `opacity ${transitionDuration}ms, transform ${transitionDuration}ms`,
-                transform: maxIsVisible > i ? "none" : "translateY(20px)",
-                opacity: maxIsVisible > i ? 1 : 0,
-              }}
-            >
+              <ChildTag
+                className={props.childClassName}
+                style={{
+                  transition: `opacity ${transitionDuration}ms, transform ${transitionDuration}ms`,
+                  transform: maxIsVisible > i ? "none" : "translateY(20px)",
+                  opacity: maxIsVisible > i ? 1 : 0,
+                  pointerEvents: maxIsVisible > i ? "auto" : "none",  
+                }}
+              >
+
               {child}
             </ChildTag>
           );
