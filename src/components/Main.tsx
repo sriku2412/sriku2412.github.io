@@ -54,7 +54,7 @@ function Main() {
           </div>
 
           <h1>Sreekanth&nbsp;Potlabathini</h1>
-          <p>Data&nbsp;Scientist&nbsp;&nbsp;|&nbsp;&nbsp;MLOps&nbsp;Engineer&nbsp;|&nbsp;&nbsp;Sr.&nbsp;Mechanical&nbsp;Research&nbsp;Engineer</p>
+          <p>Data&nbsp;Scientist&nbsp;&nbsp;|&nbsp;&nbsp;Sr.&nbsp;Mechanical&nbsp;Research&nbsp;Engineer</p>
 
           {/* duplicated icons for mobile view */}
           <div className="mobile_social_icons">
