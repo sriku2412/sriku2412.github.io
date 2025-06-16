@@ -17,10 +17,10 @@ function Project() {
       <h1>Personal Projects</h1>
       <div className="projects-grid">
         <div className="project">
-          <a href="https://www.filmate.club/" target="_blank" rel="noreferrer">
+          <a href="https://github.com/sriku2412" target="_blank" rel="noreferrer">
             <img src={mock10} className="zoom" alt="Filmate AI" width="100%" />
           </a>
-          <a href="https://www.filmate.club/" target="_blank" rel="noreferrer">
+          <a href="https://github.com/sriku2412/Personal-projects/tree/main/MotionDetector" target="_blank" rel="noreferrer">
             <h2>Computer vision - Motion Detection</h2>
           </a>
           <p>
@@ -29,10 +29,10 @@ function Project() {
         </div>
 
         <div className="project">
-          <a href="https://sriku2412.itch.io/highspeedchase" target="_blank" rel="noreferrer">
+          <a href="https://github.com/sriku2412/Conect4" target="_blank" rel="noreferrer">
             <img src={mock09} className="zoom" alt="High Speed Chase" width="100%" />
           </a>
-          <a href="https://sriku2412.itch.io/highspeedchase" target="_blank" rel="noreferrer">
+          <a href="https://github.com/sriku2412/Conect4" target="_blank" rel="noreferrer">
             <h2>Connect4 - DQN</h2>
           </a>
           <p>
@@ -41,10 +41,10 @@ function Project() {
         </div>
 
         <div className="project">
-          <a href="https://sriku2412.itch.io/spacecraft" target="_blank" rel="noreferrer">
+          <a href="https://github.com/sriku2412/Personal-projects/blob/main/north_and_south_hemisphere.ipynb" target="_blank" rel="noreferrer">
             <img src={mock08} className="zoom" alt="Astro Raiders" width="100%" />
           </a>
-          <a href="https://sriku2412.itch.io/spacecraft" target="_blank" rel="noreferrer">
+          <a href="https://github.com/sriku2412/Personal-projects/blob/main/north_and_south_hemisphere.ipynb" target="_blank" rel="noreferrer">
             <h2>Time series clustering</h2>
           </a>
           <p>
@@ -113,26 +113,26 @@ function Project() {
         </div>
 
         <div className="project">
-          <a href="https://hookele.byuh.edu/transfer-evaluation-guidelines-and-matrix" target="_blank" rel="noreferrer">
+          <a href="https://patentimages.storage.googleapis.com/eb/63/77/42e9150c8fcbad/US10500949.pdf" target="_blank" rel="noreferrer">
             <img src={mock02} className="zoom" alt="Transfer Evaluation" width="100%" />
           </a>
-          <a href="https://hookele.byuh.edu/transfer-evaluation-guidelines-and-matrix" target="_blank" rel="noreferrer">
-            <h2>Transfer Evaluation Matrix</h2>
+          <a href="https://patentimages.storage.googleapis.com/eb/63/77/42e9150c8fcbad/US10500949.pdf" target="_blank" rel="noreferrer">
+            <h2>Integrated fuel-mixing prevention device for diesel vehicle</h2>
           </a>
           <p>
-            Interactive table generator using Java & Handlebars to help transfer students map credit eligibility.
+            An integrated filler system for diesel vehicles that prevents fuel mixing by allowing only the correct nozzle—diesel or urea—to be inserted based on the selected filling mode.
           </p>
         </div>
 
         <div className="project">
-          <a href="https://github.com/sriku2412/submeowrine" target="_blank" rel="noreferrer">
+          <a href="https://patentimages.storage.googleapis.com/eb/0e/a4/546c723c0be3df/DE102017222785A1.pdf" target="_blank" rel="noreferrer">
             <img src={mock01} className="zoom" alt="Submeowrine" width="100%" />
           </a>
-          <a href="https://github.com/sriku2412/submeowrine" target="_blank" rel="noreferrer">
-            <h2>Submeowrine</h2>
+          <a href="https://patentimages.storage.googleapis.com/eb/0e/a4/546c723c0be3df/DE102017222785A1.pdf" target="_blank" rel="noreferrer">
+            <h2>Passenger Compartment Urea Filling System</h2>
           </a>
           <p>
-            Android 2D shooting game developed in Java with Android Studio. Hosted on GitHub.
+            To reduce cost and improve safety, I developed a solution that enables safe urea refilling from within the passenger compartment, without any issues of fumes or spillage. The system supports filling both via bottle and refill gun.
           </p>
         </div>
       </div>
