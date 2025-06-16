@@ -6,60 +6,18 @@ import Chip from '@mui/material/Chip';
 import '../assets/styles/Expertise.scss';
 
 const labelsFirst = [
-    "React",
-    "Flask",
-    "LangChain",
-    "LlamaIndex",
-    "Streamlit",
-    "Node.js",
-    "TypeScript",
-    "JavaScript",
-    "HTML5",
-    "CSS3",
-    "SASS",
-    "Flask",
-    "Python",
-    "SQL",
-    "PostgreSQL",
-    "Postman"
+    "Python", "Flask",
+    "Pandas", "Numpy", "SHAP", "Anomaly Detection", "LLMs", "MLflow", "YAML", "Cloud Run", "Pub/Sub","Grafana", "Vertex AI", "BigQuery"
 ];
 
 const labelsSecond = [
-    "Docker",
-    "Kubernetes",
-    "GitHub Actions",
-    "CI/CD",
-    "AWS",
-    "GCP",
-    "MLflow",
-    "Cloud Run",
-    "Pub/Sub",
-    "SQL",
-    "Databricks",
-    "Spark",
-    "git",
-    "Jira",
-    "pandas",
-    "numpy",
-    "matplotlib",
-    "seaborn"
+    "Docker", "Kubernetes", "GitHub Actions", "CI/CD", "AWS", "GCP", "MLflow", "Cloud Run",
+    "Pub/Sub", "SQL", "Databricks", "Spark", "Git", "Jira",  "LangChain", "LlamaIndex", "Streamlit", "PostgreSQL", "Gen AI", "huggingface", "OpenAI", "Azure OpenAI",
 ];
 
 const labelsThird = [
-    "OpenAI",
-    "Hugging Face",
-    "LLMs",
-    "RAG",
-    "SFT",
-    "PyTorch",
-    "TRL",
-    "Computer Vision",
-    "NLP",
-    "SHAP",
-    "Anomaly Detection",
-    "LlamaIndex",
-    "Hugging Face",
-    "Streamlit"
+    "CATIA V5", "ANSYS", "GD&T", "PLM", "Root Cause Analysis", "Design Thinking", "Lean Six Sigma", "problem solving",
+    "Project Management", "Cost Optimization", "Critical Thinking", "Innovation", "Stakeholder Management"
 ];
 
 function Expertise() {
@@ -70,9 +28,9 @@ function Expertise() {
                 <div className="skills-grid">
                     <div className="skill">
                         <FontAwesomeIcon icon={faReact} size="3x" />
-                        <h3>Tech Consultant – GenAI</h3>
+                        <h3>Lead Data Scientist – Predictive Analytics</h3>
                         <p>
-                            Delivered AI-enabled solutions integrating LLMs, custom SFT models, and chatbots with LangChain, Streamlit, and Flask. Built job recommendation systems and ethical career coaching tools hosted on Hugging Face.
+                            Built ML pipelines with automation from ingestion to deployment using MLflow, YAML-configured modules, and explainable AI. Delivered anomaly detection systems, data drift monitoring, and observability dashboards using AWS/GCP stack.
                         </p>
                         <div className="flex-chips">
                             <span className="chip-title">Tech stack:</span>
@@ -84,9 +42,9 @@ function Expertise() {
 
                     <div className="skill">
                         <FontAwesomeIcon icon={faDocker} size="3x" />
-                        <h3>MLOps Engineer</h3>
+                        <h3>MLOps Engineer & Consultant</h3>
                         <p>
-                            Built full ML pipelines with automated CI/CD, MLflow, and cloud deployments across AWS and GCP. Implemented observability, experiment tracking, and data drift monitoring for scalable AI workflows.
+                            Developed scalable, production-ready infrastructure using Docker, CI/CD, and cloud-native tools. Automated model tracking, alerting, and deployment with GitHub Actions,AWS EC2 deployment and Spark pipelines.
                         </p>
                         <div className="flex-chips">
                             <span className="chip-title">Tech stack:</span>
@@ -100,7 +58,7 @@ function Expertise() {
                         <FontAwesomeIcon icon={faPython} size="3x" />
                         <h3>Mechanical Engineer – R&D & Project Management</h3>
                         <p>
-                            10+ years leading design & simulation projects at Hyundai. Expertise in CATIA, GD&T, and innovation-driven system design. Filed 4 patents. Applied root cause analysis, stakeholder engagement, and cost optimization to deliver high-impact automotive systems.
+                            10+ years leading automotive R&D with a focus on fuel and urea systems. Delivered patented innovations, root cause analysis, and large-scale mechanical systems with strong cost and quality impact. Managed cross-functional projects across lifecycle stages.
                         </p>
                         <div className="flex-chips">
                             <span className="chip-title">Tools & Methods:</span>
