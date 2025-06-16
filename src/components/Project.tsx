@@ -57,10 +57,10 @@ function Project() {
             <img src={mock07} className="zoom" alt="Datum" width="100%" />
           </a>
           <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer">
-            <h2>Datum: Integrated Learning Platform</h2>
+            <h2>AI chatbot : Integrated with RAG & LLM</h2>
           </a>
           <p>
-            Built a Japanese-language data science learning platform from scratch using Ruby on Rails.
+            Built a Gen AI Chatbot that uses LlamaIndex and Node.js. It also has a sentiment analysis done to recomment Youtube & blog plost.
           </p>
         </div>
 
