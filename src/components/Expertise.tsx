@@ -6,8 +6,8 @@ import Chip from '@mui/material/Chip';
 import '../assets/styles/Expertise.scss';
 
 const labelsFirst = [
-    "Python", "Flask",
-    "Pandas", "Numpy", "SHAP", "Anomaly Detection", "LLMs", "MLflow", "YAML", "Cloud Run", "Pub/Sub","Grafana", "Vertex AI", "BigQuery"
+    "Python", "SQL", "TensorFlow", "PyTorch", "Scikit-learn",
+    "Pandas", "Numpy", "SHAP", "Anomaly Detection", "Machine Learning", "Feature Engineering", "MLflow", "YAML", "Cloud Run", "Pub/Sub","Grafana", "BigQuery"
 ];
 
 const labelsSecond = [
@@ -32,6 +32,9 @@ function Expertise() {
                         <p>
                             Built ML pipelines with automation from ingestion to deployment using MLflow, YAML-configured modules, and explainable AI. Delivered anomaly detection systems, data drift monitoring, and observability dashboards using AWS/GCP stack.
                         </p>
+                        <p>
+                            Understanding client requirements and translating them into ML models using Python, SQL, and Tensorflow. Implemented feature engineering and model deployment using Cloud Run, Pub/Sub, and BigQuery.
+                        </p>
                         <div className="flex-chips">
                             <span className="chip-title">Tech stack:</span>
                             {labelsFirst.map((label, index) => (
@@ -42,10 +45,19 @@ function Expertise() {
 
                     <div className="skill">
                         <FontAwesomeIcon icon={faDocker} size="3x" />
-                        <h3>MLOps Engineer & Consultant</h3>
+                        <h3>MLOps Engineer & Consultant - inernships</h3>
+<p>
+    Developed a scalable, production-ready GenAI solution. Built a chatbot using LlamaIndex and Node.js, leveraging Docker, CI/CD, and cloud-native tools. 
+    Integrated a CI/CD pipeline with GitHub Actions and cloud automation. 
+    <a href="https://startup.club/ask-ai/" target="_blank">View Demo</a>
+</p>
+
                         <p>
-                            Developed scalable, production-ready infrastructure using Docker, CI/CD, and cloud-native tools. Automated model tracking, alerting, and deployment with GitHub Actions,AWS EC2 deployment and Spark pipelines.
+                            Built a Job recommendation system with SFT model as a career coach available on 
+                            <a href="https://huggingface.co/sriku2412/unsloth_SFT_dotsLive" target="_blank">Hugging Face</a>. 
+                            Automated CI/CD pipeline with GitHub Actions and Cloud automation.
                         </p>
+
                         <div className="flex-chips">
                             <span className="chip-title">Tech stack:</span>
                             {labelsSecond.map((label, index) => (

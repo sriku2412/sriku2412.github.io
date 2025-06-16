@@ -54,7 +54,7 @@ function Contact() {
       <div className="items-container">
         <div className="contact_wrapper">
           <h1>Contact Me</h1>
-          <p>Got a project waiting to be realized? Let's collaborate and make it happen!</p>
+          <p>Have a question or opportunity to discuss? I’d love to hear from you.</p>
           <Box
             ref={form}
             component="form"
@@ -94,7 +94,7 @@ function Contact() {
               label="Message"
               placeholder="Send me any inquiries or questions"
               multiline
-              rows={10}
+              rows={5}
               className="body-form"
               value={message}
               onChange={(e) => {
