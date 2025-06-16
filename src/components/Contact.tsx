@@ -27,13 +27,13 @@ function Contact() {
 
     if (!form.current) return;
 
-    emailjs
-      .sendForm(
-        import.meta.env.VITE_EMAILJS_SERVICE_ID!,
-        import.meta.env.VITE_EMAILJS_TEMPLATE_ID!,
-        form.current,
-        import.meta.env.VITE_EMAILJS_PUBLIC_KEY!
-      )
+    emailjs.sendForm(
+      process.env.REACT_APP_EMAILJS_SERVICE_ID!,
+      process.env.REACT_APP_EMAILJS_TEMPLATE_ID!,
+      form.current!,
+      process.env.REACT_APP_EMAILJS_PUBLIC_KEY!
+    )
+
       .then(() => {
         setFields({ name: '', email: '', message: '' });
         setErrors({ name: false, email: false, message: false });
