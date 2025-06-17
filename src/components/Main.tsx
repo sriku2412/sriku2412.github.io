@@ -4,8 +4,18 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
 import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 import FileDownloadIcon from '@mui/icons-material/FileDownload';
+import SvgIcon from '@mui/material/SvgIcon';
+import { siMedium } from 'simple-icons/icons'; 
+
 import '../assets/styles/Main.scss';
 
+function MediumIcon(props) {
+  return (
+    <SvgIcon {...props} viewBox="0 0 24 24">
+      <path d={siMedium.path} />
+    </SvgIcon>
+  );
+}
 function Main() {
   return (
     <div className="container">
@@ -50,7 +60,13 @@ function Main() {
             >
               <FileDownloadIcon />
             </a>
-
+            <a
+              href="https://medium.com/@sreekanthpotlabathini"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <MediumIcon />
+            </a>
           </div>
 
           <h1>Sreekanth&nbsp;Potlabathini</h1>
