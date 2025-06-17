@@ -40,6 +40,13 @@ function Main() {
               <LinkedInIcon />
             </a>
             <a
+              href="https://medium.com/@sreekanthpotlabathini"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <MediumIcon />
+            </a>
+            <a
               href="mailto:srikanth.potlabathini@gmail.com?subject=Hello%20Sreekanth%20Potlabathini"
               target="_blank"
               rel="noreferrer"
@@ -60,13 +67,7 @@ function Main() {
             >
               <FileDownloadIcon />
             </a>
-            <a
-              href="https://medium.com/@sreekanthpotlabathini"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <MediumIcon />
-            </a>
+
           </div>
 
           <h1>Sreekanth&nbsp;Potlabathini</h1>
