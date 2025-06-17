@@ -23,7 +23,7 @@ function Footer() {
       <div>
         <a href="https://github.com/sriku2412" target="_blank" rel="noreferrer"><GitHubIcon/></a>
         <a href="https://www.linkedin.com/in/potlabathini/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
-        <a href="https://medium.com/@sriku2412" target="_blank" rel="noreferrer"><MediumIcon/></a>
+        <a href="https://medium.com/@sreekanthpotlabathini" target="_blank" rel="noreferrer"><MediumIcon/></a>
         <a href="mailto:srikanth.potlabathini@gmail.com?subject=Hello%20Sreekanth%20Potlabathini" target="_blank" rel="noreferrer"><EmailOutlinedIcon/></a>
         <a href="https://calendar.app.google/QSuqQv8Z7QAj1hvg9" target="_blank" rel="noreferrer"><CalendarMonthIcon/></a>
         <a href="https://github.com/sriku2412/sriku2412/raw/main/Sreekanth-Resume-Jun-2025.pdf" target="_blank" rel="noreferrer"><FileDownloadIcon/></a>
