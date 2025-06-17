@@ -5,15 +5,18 @@ import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
 import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 import FileDownloadIcon from '@mui/icons-material/FileDownload';
 import SvgIcon from '@mui/material/SvgIcon';
-import { siMedium } from 'simple-icons/icons'; 
+import { siMedium } from 'simple-icons';
 import '../assets/styles/Footer.scss'
-function MediumIcon(props) {
+import type { SvgIconProps } from '@mui/material/SvgIcon';
+
+function MediumIcon(props: SvgIconProps) {
   return (
     <SvgIcon {...props} viewBox="0 0 24 24">
       <path d={siMedium.path} />
     </SvgIcon>
   );
 }
+
 function Footer() {
   return (
     <footer>
